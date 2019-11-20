@@ -5,19 +5,19 @@ block header
 block content
    div 
      h4.text-align-center Register 
-   form
+   form(id="register" action="/signup" method="GET")
      .form-group
          label(for='name') Name
-         input#email.form-control(type='text'  placeholder='Enter name')
+         input#name.form-control(type='text' name="name" placeholder='Enter name')
      .form-group
-         label(for='exampleInputEmail1') Email address
-         input#email.form-control(type='email' aria-describedby='emailHelp' placeholder='Enter email')
+         label(for='email') Email address
+         input#email.form-control(type='email' name="email" aria-describedby='emailHelp' placeholder='Enter email')
      .form-group
-         label(for='exampleInputPassword1') Password
-         input#password.form-control(type='text' placeholder='Password')
+         label(for='password') Password
+         input#password.form-control(type='text' name="password" placeholder='Password')
      .form-check
          input#check.form-check-input(type='checkbox')
-         label.form-check-label(for='exampleCheck1') Confirm Register 
+         label.form-check-label(for='check') Confirm Register 
          br
      button.btn.btn-primary(type='submit') Register
 

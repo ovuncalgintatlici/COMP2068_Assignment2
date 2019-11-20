@@ -3,6 +3,7 @@ var express = require('express');
 var router = express.Router();
 const mongoose = require("mongoose");
 const Item = require("../models/item");
+const User = require("../models/user");
 
 // Mongo connect
 let mongo_url = "mongodb://localhost/itemdb"; // db connection string
@@ -32,6 +33,23 @@ router.get('/adlist', function (req, res) {
     });
    
 });
+
+// for new user
+router.get('/signup', function (req, res, next) {
+    
+    let user = new User({
+        mail: req.body.email,
+        name: req.body.name,
+        password: req.body.password
+    });
+
+    user.save((err) => {
+        if (err) res.status(500).send({ message: `Err: ${err}` });
+
+        res.status(200).send();
+    });
+}); 
+
 
 // Add new item
 router.get('/addItem', function (req, res,next) {
