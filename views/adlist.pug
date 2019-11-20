@@ -1,0 +1,16 @@
+﻿extends layout
+
+block header
+    include header
+block content
+   div 
+     h4.text-align-center Public Ad List
+     
+   ul.list-group
+    each item in items
+     li.list-group-item.d-flex.justify-content-between.align-items-center
+      | #{item.title} - #{item.description}
+      span.badge.badge-primary.badge-pill #{item.price}$
+
+block footer
+    include footer

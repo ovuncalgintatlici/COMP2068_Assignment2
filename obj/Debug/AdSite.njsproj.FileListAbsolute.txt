@@ -1,0 +1,3 @@
+C:\Users\anil.buldu\source\repos\AdSite\AdSite\obj\Debug\AdSite.njsproj.CoreCompileInputs.cache
+C:\Users\anil.buldu\source\repos\AdSite\AdSite\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\anil.buldu\source\repos\AdSite\AdSite\obj\Debug\AdSite.njsprojAssemblyReference.cache
