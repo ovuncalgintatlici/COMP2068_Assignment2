@@ -6,6 +6,6 @@
     "\\AdSite\\routes",
     "\\AdSite\\views"
   ],
-  "SelectedNode": "\\AdSite\\views\\index.pug",
+  "SelectedNode": "\\AdSite\\views\\header.pug",
   "PreviewInSolutionExplorer": false
 }

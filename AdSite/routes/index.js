@@ -16,6 +16,14 @@ router.get('/', function (req, res) {
     res.render('index', { title: 'Express' });
 });
 
+// ad list page
+router.get('/adlist', function (req, res) {
+    Item.find({}, (error, data) => {
+        res.render('adlist', {items : data});
+    });
+   
+});
+
 // Add new item
 router.get('/addItem', function (req, res,next) {
     let item = new Item({
@@ -43,6 +51,10 @@ router.get("/getItemList", (req, res, next) => {
         }
     });
 });
+
+function getItemList() {
+
+}
 
 
 module.exports = router;

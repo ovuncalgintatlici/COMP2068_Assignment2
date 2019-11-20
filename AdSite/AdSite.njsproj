@@ -38,6 +38,9 @@
     <Content Include="package.json" />
     <Content Include="public\stylesheets\main.css" />
     <Content Include="README.md" />
+    <Content Include="views\adlist.pug">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="views\footer.pug" />
     <Content Include="views\header.pug" />
     <Content Include="views\index.pug" />
