@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "AdSite", "AdSite\AdSite.njsproj", "{849D6CA7-D10B-4FDB-99D7-046095FEDD06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{849D6CA7-D10B-4FDB-99D7-046095FEDD06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{849D6CA7-D10B-4FDB-99D7-046095FEDD06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{849D6CA7-D10B-4FDB-99D7-046095FEDD06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{849D6CA7-D10B-4FDB-99D7-046095FEDD06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05000F54-8544-4526-A09A-6A70F1CEEDEC}
+	EndGlobalSection
+EndGlobal

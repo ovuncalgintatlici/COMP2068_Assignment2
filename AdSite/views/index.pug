@@ -1,0 +1,22 @@
+extends layout
+
+block header
+    include header
+block content
+  div.container.home-content
+   div.jumbotron
+    h1.display-4 Welcome Ad-Site
+    p.lead
+      | List and Edit Items. 
+      br
+      |        This is an CRUD App.
+    hr.my-4
+    p  
+    a(href='#') Login
+    | 
+    a(href='#') Register
+    | 
+    a(href='#') Get Started
+
+block footer
+    include footer
