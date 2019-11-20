@@ -1,0 +1,20 @@
+﻿extends layout
+
+block header
+    include header
+block content
+   div 
+     h4.text-align-center Login 
+   form
+     .form-group
+         label(for='exampleInputEmail1') Email address 
+         input#email.form-control(type='email' aria-describedby='emailHelp' placeholder='Enter email')
+     .form-group
+         label(for='exampleInputPassword1') Password
+         input#password.form-control(type='password' placeholder='Password')
+     
+         br
+     button.btn.btn-primary(type='submit') Login
+
+block footer
+    include footer

@@ -16,8 +16,13 @@ router.get('/', function (req, res) {
     res.render('index', { title: 'Express' });
 });
 
+// Get Register Page
 router.get('/register', function (req, res) {
     res.render('register', { title: 'Register' });
+});
+
+router.get('/login', function (req, res) {
+    res.render('login', { title: 'Login' });
 });
 
 // ad list page
